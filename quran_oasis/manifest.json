@@ -1,0 +1,36 @@
+{
+  "name": "Quran Oasis Micro-Hifz Curriculum",
+  "name_ar": "واحة القرآن الكريم — منهج الحفظ المصغر التفاعلي",
+  "version": "2.0.0",
+  "repository": "https://github.com/HuzhaifaEqbal/HEQ-Werdk_OpenSource",
+  "raw_base_url": "https://raw.githubusercontent.com/HuzhaifaEqbal/HEQ-Werdk_OpenSource/main/quran_oasis",
+  "cdn_base_url": "https://cdn.jsdelivr.net/gh/HuzhaifaEqbal/HEQ-Werdk_OpenSource@main/quran_oasis",
+  "methodology": "Bite-sized Hifz (3-5 Ayahs per node), Strictly No Scrambling, Uthmanic Script",
+  "available_ajzaa": [
+    {
+      "juz": 30,
+      "name_ar": "جزء عمّ",
+      "name_en": "Juz 'Amma",
+      "path": "juz_30",
+      "surahs_count": 37,
+      "surah_range": "78 - 114",
+      "total_nodes": 128
+    },
+    {
+      "juz": 29,
+      "name_ar": "جزء تبارك",
+      "name_en": "Juz Tabarak",
+      "path": "juz_29",
+      "surahs_count": 11,
+      "surah_range": "67 - 77"
+    },
+    {
+      "juz": 1,
+      "name_ar": "جزء ألم",
+      "name_en": "Juz 1 (Al-Fatihah & Al-Baqarah)",
+      "path": "juz_01",
+      "surahs_count": 2,
+      "surah_range": "1 - 2"
+    }
+  ]
+}

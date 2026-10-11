@@ -1,0 +1,144 @@
+{
+  "nodeId": "hifz_009_02",
+  "title": "سورة التوبة - الآيات 7-12",
+  "surahId": 9,
+  "ayahStart": 7,
+  "ayahEnd": 12,
+  "activities": [
+    {
+      "type": "fill_in_the_blank",
+      "ayahNumber": 7,
+      "missingWordPosition": 18,
+      "options": [
+        "فَٱسْتَقِيمُوا۟",
+        "ٱلْمُعْتَدُونَ",
+        "بِأَفْوَٰهِهِمْ",
+        "فَإِخْوَٰنُكُمْ"
+      ],
+      "activityId": "act_009_02_01"
+    },
+    {
+      "type": "next_ayah",
+      "currentAyahNumber": 7,
+      "correctNextAyahNumber": 8,
+      "wrongOptionsAyahNumbers": [
+        9,
+        5
+      ],
+      "activityId": "act_009_02_02"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "ayahNumber": 8,
+      "missingWordPosition": 11,
+      "options": [
+        "يُرْضُونَكُم",
+        "وَأَقَامُوا۟",
+        "ٱلْحَرَامِ ۖ",
+        "سَبِيلِهِۦٓ ۚ"
+      ],
+      "activityId": "act_009_02_03"
+    },
+    {
+      "type": "next_ayah",
+      "currentAyahNumber": 8,
+      "correctNextAyahNumber": 9,
+      "wrongOptionsAyahNumbers": [
+        10,
+        6
+      ],
+      "activityId": "act_009_02_04"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "ayahNumber": 9,
+      "missingWordPosition": 8,
+      "options": [
+        "سَبِيلِهِۦٓ ۚ",
+        "ٱلْمُتَّقِينَ",
+        "وَأَكْثَرُهُمْ",
+        "يُرْضُونَكُم"
+      ],
+      "activityId": "act_009_02_05"
+    },
+    {
+      "type": "next_ayah",
+      "currentAyahNumber": 9,
+      "correctNextAyahNumber": 10,
+      "wrongOptionsAyahNumbers": [
+        11,
+        7
+      ],
+      "activityId": "act_009_02_06"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "ayahNumber": 10,
+      "missingWordPosition": 10,
+      "options": [
+        "ٱلْمُعْتَدُونَ",
+        "لِلْمُشْرِكِينَ",
+        "ٱسْتَقَـٰمُوا۟",
+        "فَٱسْتَقِيمُوا۟"
+      ],
+      "activityId": "act_009_02_07"
+    },
+    {
+      "type": "next_ayah",
+      "currentAyahNumber": 10,
+      "correctNextAyahNumber": 11,
+      "wrongOptionsAyahNumbers": [
+        12,
+        8
+      ],
+      "activityId": "act_009_02_08"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "ayahNumber": 11,
+      "missingWordPosition": 3,
+      "options": [
+        "وَأَقَامُوا۟",
+        "يُرْضُونَكُم",
+        "ٱلْحَرَامِ ۖ",
+        "سَبِيلِهِۦٓ ۚ"
+      ],
+      "activityId": "act_009_02_09"
+    },
+    {
+      "type": "next_ayah",
+      "currentAyahNumber": 11,
+      "correctNextAyahNumber": 12,
+      "wrongOptionsAyahNumbers": [
+        13,
+        9
+      ],
+      "activityId": "act_009_02_10"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "ayahNumber": 12,
+      "missingWordPosition": 3,
+      "options": [
+        "أَيْمَـٰنَهُم",
+        "رَسُولِهِۦٓ",
+        "قُلُوبُهُمْ",
+        "وَءَاتَوُا۟"
+      ],
+      "activityId": "act_009_02_11"
+    }
+  ],
+  "tutorContext": {
+    "surahName": "التوبة",
+    "juz": 10,
+    "theme": "تقرير توحيد الله وآيات قدرته، ودعوة المكذبين للنظر في مصائر الأمم، وبيان أصول الإيمان والبعث والولاية لله.",
+    "ayahMeanings": {
+      "7": "لا ينبغي أن يكون للمشركين عهد عند الله وعند رسوله، إلا الذين عاهدتم عند المسجد الحرام في صلح (الحديبية) فما أقاموا على الوفاء بعهدكم فأقيموا لهم على مثل ذلك. إن الله يحب المتقين الموفِّين بعهودهم.",
+      "8": "إن شأن المشركين أن يلتزموا بالعهود ما دامت الغلبة لغيرهم، أما إذا شعروا بالقوة على المؤمنين فإنهم لا يراعون القرابة ولا العهد، فلا يغرنكم منهم ما يعاملونكم به وقت الخوف منكم، فإنهم يقولون لكم كلامًا بألسنتهم; لترضوا عنهم، ولكن قلوبهم تأبى ذلك، وأكثرهم متمردون على الإسلام ناقضون للعهد.",
+      "9": "استبدلوا بآيات الله عرض الدنيا التافه، فأعرضوا عن الحق ومنعوا الراغبين في الإسلام عن الدخول فيه، لقد قَبُح فعلهم، وساء صنيعهم.",
+      "10": "إن هؤلاء المشركين حرب على الإيمان وأهله، فلا يقيمون وزنًا لقرابة المؤمن ولا لعهده، وشأنهم العدوان والظلم.",
+      "11": "فإن أقلعوا عن عبادة غير الله، ونطقوا بكلمة التوحيد، والتزموا شرائع الإسلام من إقام الصلاة وإيتاء الزكاة، فإنهم إخوانكم في الإسلام. ونبين الآيات، ونوضحها لقوم ينتفعون بها.",
+      "12": "وإنْ نَقَضَ هؤلاء المشركون العهود التي أبرمتموها معهم، وأظهروا الطعن في دين الإسلام، فقاتلوهم فإنهم رؤساء الضلال، لا عهد لهم ولا ذمة، حتى ينتهوا عن كفرهم وعداوتهم للإسلام."
+    }
+  }
+}
