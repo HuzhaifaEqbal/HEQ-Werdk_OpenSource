@@ -1,20 +1,26 @@
 # 📜 الأربعون النووية — دليل المطور واستدعاء البيانات
 ## (An-Nawawi 40 Hadiths Dataset — Developer & API Integration Guide)
 
-> **Repository:** [https://github.com/HuzhaifaEqbal/HEQ-Werdk_OpenSource](https://github.com/HuzhaifaEqbal/HEQ-Werdk_OpenSource)  
-> **Direct Raw Endpoint:** `https://raw.githubusercontent.com/HuzhaifaEqbal/HEQ-Werdk_OpenSource/main/ALnawoi/`  
-> **Global Fast CDN (jsDelivr):** `https://cdn.jsdelivr.net/gh/HuzhaifaEqbal/HEQ-Werdk_OpenSource@main/ALnawoi/`  
-> **Format:** 100% Validated UTF-8 JSON | **Total Hadiths:** 40 | **Features:** Isnad Chains, Takhrij, Fiqh Topics
+> **المستودع:** [https://github.com/HuzhaifaEqbal/HEQ-Werdk_OpenSource](https://github.com/HuzhaifaEqbal/HEQ-Werdk_OpenSource)  
+> **الرابط المباشر (Raw):** `https://raw.githubusercontent.com/HuzhaifaEqbal/HEQ-Werdk_OpenSource/main/ALnawoi/`  
+> **شبكة التوزيع (jsDelivr CDN):** `https://cdn.jsdelivr.net/gh/HuzhaifaEqbal/HEQ-Werdk_OpenSource@main/ALnawoi/`  
+> **الصيغة:** JSON (UTF-8) | **عدد الأحاديث المعتمدة:** 40 حديثاً | **الميزات:** أسانيد، تخريج، وقضايا فقهية
 
 ---
 
 ## 🌍 نظرة عامة (Overview)
 
 ### 🇸🇦 بالعربية
-يوفر هذا المستودع قاعدة بيانات رقمية معيارية لـ **الأربعين النووية** للإمام يحيى بن شرف النووي رحمه الله. تتميز البيانات بالمتن المشكول بدقة، وتخريج الحديث، وسلسلة رجال السند (`isnadChain`) من شيخ المصنف وحتى الصحابي الجليل مع معرّفات فريدة للرواة (`narratorId`)، بالإضافة إلى القضايا الفقهية المستنبطة (`coreFiqhTopics`) والمعنى الإجمالي والفوائد التربوية.
+يوفر هذا المسار قاعدة بيانات رقمية لـ **الأربعين النووية** للإمام يحيى بن شرف النووي رحمه الله. تشتمل البيانات على المتن المشكول، والتخريج، وسلسلة رجال السند (`isnadChain`) من شيخ المصنف وحتى الصحابي الجليل مع معرّفات فريدة للرواة (`narratorId`)، بالإضافة إلى القضايا الفقهية المستنبطة (`coreFiqhTopics`) والمعنى الإجمالي والفوائد التربوية.
+
+> 📌 **تنبيه علمي حول العدد:**  
+> يحتوي هذا الإصدار حالياً على **40 حديثاً** موزعة على 4 دفعات (10 أحاديث لكل دفعة). المتن المتداول للأربعين النووية يصل إلى 42 حديثاً؛ والعمل جارٍ على دراسة وتخريج الحديثين 41 و42 تمهيداً لإضافتهما لاحقاً بعد المراجعة الحديثية لدرجة أسانيدهما.
 
 ### 🇬🇧 In English
-This dataset provides a production-ready, structured digital edition of **Imam Al-Nawawi's Forty Hadiths**. Key features include fully vocalized Arabic Matn, academic authentication (Takhrij), relational transmission chains (`isnadChain`) with standardized narrator IDs (`narratorId`) suitable for network graph visualization, extracted jurisprudential subjects (`coreFiqhTopics`), and pedagogical lessons.
+This dataset provides a structured digital edition of **Imam Al-Nawawi's Forty Hadiths**. Key features include vocalized Arabic Matn, academic authentication (Takhrij), relational transmission chains (`isnadChain`) with standardized narrator IDs (`narratorId`), extracted jurisprudential subjects (`coreFiqhTopics`), and pedagogical lessons.
+
+> 📌 **Scholarly Note on Hadith Count:**  
+> The current release covers **40 hadiths** structured in 4 batches (10 hadiths each). The traditional compilation extends to 42 hadiths; hadiths 41 and 42 are currently undergoing authentication review before inclusion.
 
 ---
 
@@ -38,7 +44,7 @@ https://cdn.jsdelivr.net/gh/HuzhaifaEqbal/HEQ-Werdk_OpenSource@main/ALnawoi/nawa
 https://cdn.jsdelivr.net/gh/HuzhaifaEqbal/HEQ-Werdk_OpenSource@main/ALnawoi/nawawi_40_batch_04.json
 ```
 
-### 3. الفهرس الديناميكي (Dynamic Discovery Manifest)
+### 3. الفهرس المجمع (Dynamic Discovery Manifest)
 ```http
 https://cdn.jsdelivr.net/gh/HuzhaifaEqbal/HEQ-Werdk_OpenSource@main/ALnawoi/manifest.json
 ```
@@ -47,38 +53,37 @@ https://cdn.jsdelivr.net/gh/HuzhaifaEqbal/HEQ-Werdk_OpenSource@main/ALnawoi/mani
 
 ## 📐 هيكل سجل الحديث (JSON Hadith Schema)
 
+الملف الكامل عبارة عن مصفوفة JSON تحتوي على كائنات الأحاديث:
+
 ```json
-{
-  "hadithId": "nawawi_40_01",
-  "number": 1,
-  "title": "إنما الأعمال بالنيات",
-  "matn": "عَنْ أَمِيرِ الْمُؤْمِنِينَ أَبِي حَفْصٍ عُمَرَ بْنِ الْخَطَّابِ رَضِيَ اللَّهُ عَنْهُ قَالَ: سَمِعْتُ رَسُولَ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ يَقُولُ: «إِنَّمَا الأَعْمَالُ بِالنِّيَّاتِ...»",
-  "primarySahabi": "عمر بن الخطاب رضي الله عنه",
-  "takhrij": "رواه البخاري ومسلم في صحيحهما",
-  "authenticity": "صحيح متفق عليه",
-  "isnadChain": [
-    {
-      "step": 1,
-      "narratorId": "narr_umar_01",
-      "name": "عمر بن الخطاب",
-      "role": "صحابي",
-      "generation": "الصحابة",
-      "grade": "صحابي جليل",
-      "deathYearHijri": 23,
-      "city": "المدينة المنورة"
-    }
-  ],
-  "coreFiqhTopics": [
-    "النية شرط لصحة الأعمال",
-    "الإخلاص في العبادة",
-    "الهجرة إلى الله ورسوله"
-  ],
-  "briefMeaning": "بيان أن صحة العمل وقبوله عند الله مرتبطان بقصد القلب وابتغاء وجه الله تعالى.",
-  "pedagogicalPoints": [
-    "أهمية مراقبة القصد في كل عمل",
-    "التحذير من إرادة الدنيا بأعمال الآخرة"
-  ]
-}
+[
+  {
+    "hadithId": "nawawi_40_01",
+    "number": 1,
+    "title": "إنما الأعمال بالنيات",
+    "matn": "عَنْ أَمِيرِ الْمُؤْمِنِينَ أَبِي حَفْصٍ عُمَرَ بْنِ الْخَطَّابِ رَضِيَ اللَّهُ عَنْهُ قَالَ: سَمِعْتُ رَسُولَ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ يَقُولُ: «إِنَّمَا الأَعْمَالُ بِالنِّيَّاتِ...»",
+    "primarySahabi": "عمر بن الخطاب رضي الله عنه",
+    "takhrij": "رواه البخاري ومسلم في صحيحهما",
+    "authenticity": "صحيح متفق عليه",
+    "isnadChain": [
+      {
+        "order": 1,
+        "narratorId": "sahabi_umar_ibn_alkhattab",
+        "name": "عمر بن الخطاب رضي الله عنه",
+        "role": "الصحابي راوي الحديث"
+      }
+    ],
+    "coreFiqhTopics": [
+      "اشتراط النية في العبادات",
+      "الإخلاص وتجريد القصد لله تعالى"
+    ],
+    "briefMeaning": "بيان أن صحة الأعمال وقبولها وثوابها مرتبط بصلاح النية والقصد.",
+    "pedagogicalPoints": [
+      "النية تميز العبادة عن العادة",
+      "الهجرة لله ورسوله أصل عظيم"
+    ]
+  }
+]
 ```
 
 ---
@@ -91,11 +96,11 @@ import 'dart:convert';
 import 'package:http/http.dart' as http;
 
 class NawawiHadithService {
-  static const String completeUrl = 
-      'https://cdn.jsdelivr.net/gh/HuzhaifaEqbal/HEQ-Werdk_OpenSource@main/ALnawoi/nawawi_40_complete.json';
+  static const String baseUrl = 
+      'https://cdn.jsdelivr.net/gh/HuzhaifaEqbal/HEQ-Werdk_OpenSource@main/ALnawoi';
 
   static Future<List<dynamic>> fetchAllHadiths() async {
-    final response = await http.get(Uri.parse(completeUrl));
+    final response = await http.get(Uri.parse('$baseUrl/nawawi_40_complete.json'));
     if (response.statusCode == 200) {
       return jsonDecode(utf8.decode(response.bodyBytes));
     }
@@ -136,4 +141,4 @@ print(f"Successfully loaded {len(hadiths)} hadiths.")
 
 ---
 
-*Waqf & License: Open-source Prophetic Hadith dataset for scholars, developers, and educational platforms.*
+*Waqf & Educational Resource: Open-source Prophetic Hadith dataset.*

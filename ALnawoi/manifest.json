@@ -7,13 +7,14 @@
   "raw_base_url": "https://raw.githubusercontent.com/HuzhaifaEqbal/HEQ-Werdk_OpenSource/main/ALnawoi",
   "cdn_base_url": "https://cdn.jsdelivr.net/gh/HuzhaifaEqbal/HEQ-Werdk_OpenSource@main/ALnawoi",
   "total_hadiths": 40,
+  "notes": "يحتوي الإصدار الحالي على الأحاديث الأربعين المعتمدة (1 إلى 40)، وجارٍ دراسة ومراجعة الحديثين 41 و42 لاستكمال المتن كاملاً.",
   "files": [
     {
       "file": "nawawi_40_complete.json",
       "type": "complete",
       "range": "1 - 40",
-      "title_ar": "المتن الكامل للأربعين النووية مع سلاسل الأسانيد والفوائد الفقهية",
-      "title_en": "Complete 40 Hadiths with Isnad Graph Chains & Fiqh Points"
+      "title_ar": "المتن المكتمل للأربعين النووية (40 حديثاً) مع سلاسل الأسانيد والفوائد الفقهية",
+      "title_en": "Available 40 Hadiths with Isnad Graph Chains & Fiqh Points"
     },
     {
       "file": "nawawi_40_batch_01.json",

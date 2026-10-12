@@ -39,10 +39,10 @@
 
 ## 📂 3. مسارات الملفات الهامة (Crucial File Paths)
 
-- **جذر التطبيق:** `C:\Users\darau\Downloads\HEQ_Werdk\heq_werdk_app`
-- **جسر التواصل مع الباك إند (مهم جداً):** `C:\Users\darau\Downloads\HEQ_Werdk\AI_SYNC_BRIDGE_V2.md` *(هذا الملف يحتوي على تحديثات الـ API والاتفاقيات مع المهندس Pro. يجب قراءته عند استئناف العمل للتعرف على الـ Endpoints).*
-- **الأيقونات والخطوط:** `assets/icons/`, `assets/fonts/alfont_com_FormaDJRArabicDisplay-Bold-Testing.otf`
-- **الخدمات (API Service):** `lib\core\services\api_service.dart`
+- **جذر التطبيق:** `your_project/app/`
+- **جسر التواصل مع الباك إند:** `your_project/AI_SYNC_BRIDGE_V2.md` *(هذا الملف يحتوي على تحديثات الـ API والاتفاقيات البرمجية للتعرف على الـ Endpoints).*
+- **الأيقونات والخطوط:** `assets/icons/`, `assets/fonts/`
+- **الخدمات (API Service):** `lib/core/services/api_service.dart`
 
 ---
 

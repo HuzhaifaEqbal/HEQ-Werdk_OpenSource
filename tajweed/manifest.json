@@ -7,6 +7,13 @@
   "cdn_base_url": "https://cdn.jsdelivr.net/gh/HuzhaifaEqbal/HEQ-Werdk_OpenSource@main/tajweed",
   "total_modules": 10,
   "total_files": 50,
+  "scholarly_sources": [
+    "المقدمة الجزرية — الإمام ابن الجزري",
+    "تحفة الأطفال والغلمان في تجويد القرآن — الشيخ سليمان الجمزوري",
+    "التحديد في الإتقان والتسديد — الإمام أبو عمرو الداني",
+    "غاية المريد في علم التجويد — الشيخ عطية قابل نصر",
+    "حق التلاوة — الشيخ حسني شيخ عثمان"
+  ],
   "modules": [
     {
       "id": "01_Basics_and_Makharij",
@@ -109,11 +116,11 @@
       "title_ar": "الهمزات والوقف",
       "title_en": "Hamzah Rules & Stopping (Waqf)",
       "files": [
-        { "file": "01_hamzat_wasl_verbs.json", "type": "lesson", "title_ar": "همزة الوصل في الأفعال" },
-        { "file": "02_hamzat_wasl_nouns_letters.json", "type": "lesson", "title_ar": "همزة الوصل في الأسماء والحروف" },
-        { "file": "03_waqf_types_tam_kafi.json", "type": "lesson", "title_ar": "أنواع الوقف: التام والكافي" },
-        { "file": "04_waqf_types_hasan_qabeeh.json", "type": "lesson", "title_ar": "أنواع الوقف: الحسن والقبيح" },
-        { "file": "05_boss_level_hamzat_waqf.json", "type": "boss_level", "title_ar": "اختبار الهمزات والوقف" }
+        { "file": "01_hamzat_wasl_verbs.json", "type": "lesson", "title_ar": "همزة الوصل في الأفعال", "title_en": "Hamzat Al-Wasl in Verbs" },
+        { "file": "02_hamzat_wasl_nouns.json", "type": "lesson", "title_ar": "همزة الوصل في الأسماء", "title_en": "Hamzat Al-Wasl in Nouns" },
+        { "file": "03_waqf_types.json", "type": "lesson", "title_ar": "أنواع الوقف (تام/كافي/حسن/قبيح)", "title_en": "Types of Waqf" },
+        { "file": "04_waqf_signs.json", "type": "lesson", "title_ar": "علامات الوقف في المصحف", "title_en": "Waqf Signs in the Quran" },
+        { "file": "05_boss_level_waqf.json", "type": "boss_level", "title_ar": "اختبار الهمزات والوقف النهائي", "title_en": "Boss Level: Hamzat & Waqf" }
       ]
     },
     {
@@ -121,11 +128,11 @@
       "title_ar": "المقطوع والموصول وخاتمة التجويد",
       "title_en": "Maqtoo, Mawsool & Course Conclusion",
       "files": [
-        { "file": "01_maqtoo_mawsool_part1.json", "type": "lesson", "title_ar": "المقطوع والموصول (الجزء الأول)" },
-        { "file": "02_maqtoo_mawsool_part2.json", "type": "lesson", "title_ar": "المقطوع والموصول (الجزء الثاني)" },
-        { "file": "03_taat_mabsootah.json", "type": "lesson", "title_ar": "تاءات التأنيث المبسوطة" },
-        { "file": "04_khatimah_and_summary.json", "type": "lesson", "title_ar": "خاتمة علم التجويد وخلاصة المنهج" },
-        { "file": "05_boss_level_comprehensive.json", "type": "boss_level", "title_ar": "الامتحان النهائي الشامل لمنهج التجويد" }
+        { "file": "01_maqtoo_and_mawsool_basics.json", "type": "lesson", "title_ar": "أساسيات المقطوع والموصول", "title_en": "Maqtoo & Mawsool Basics" },
+        { "file": "02_taat_al_taneeth.json", "type": "lesson", "title_ar": "تاءات التأنيث (مفتوحة / مربوطة)", "title_en": "Feminine Taa Rules" },
+        { "file": "03_special_words_and_exceptions.json", "type": "lesson", "title_ar": "الكلمات الخاصة والسكتات والإشمام", "title_en": "Special Words, Sakt & Ishmam" },
+        { "file": "04_tajweed_mastery_final.json", "type": "lesson", "title_ar": "خاتمة التجويد: التعريف والمراتب والأحكام", "title_en": "Tajweed Mastery Final Summary" },
+        { "file": "05_boss_level_grand_finale.json", "type": "boss_level", "title_ar": "الاختبار الملكي الختامي الشامل", "title_en": "Grand Finale Boss Level" }
       ]
     }
   ]

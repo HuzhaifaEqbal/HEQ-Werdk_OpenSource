@@ -35,13 +35,13 @@ https://raw.githubusercontent.com/HuzhaifaEqbal/HEQ-Werdk_OpenSource/main/fiqh/{
   https://raw.githubusercontent.com/HuzhaifaEqbal/HEQ-Werdk_OpenSource/main/fiqh/02_Salah/level_1/01_prayer_times_and_adhan.json
   ```
 
-### 2. عبر شبكة التوزيع السحابية فائقة السرعة (jsDelivr CDN)
+### 2. عبر شبكة التوزيع السحابية (jsDelivr CDN)
 ```http
 https://cdn.jsdelivr.net/gh/HuzhaifaEqbal/HEQ-Werdk_OpenSource@main/fiqh/{NODE_PATH}/{FILE_NAME}
 ```
 **Example:**
 ```http
-https://cdn.jsdelivr.net/gh/HuzhaifaEqbal/HEQ-Werdk_OpenSource@main/fiqh/04_Sawm/01_fasting_definition_and_conditions.json
+https://cdn.jsdelivr.net/gh/HuzhaifaEqbal/HEQ-Werdk_OpenSource@main/fiqh/04_Sawm/level_1/01_fasting_definition_and_conditions.json
 ```
 
 ### 3. الفهرس الديناميكي المجمع (Dynamic Discovery Manifest)
@@ -166,7 +166,7 @@ def fetch_fiqh_file(node_path: str, file_name: str) -> dict:
     return resp.json()
 
 # Example:
-data = fetch_fiqh_file("04_Sawm", "01_fasting_definition_and_conditions.json")
+data = fetch_fiqh_file("04_Sawm/level_1", "01_fasting_definition_and_conditions.json")
 print("Lesson title:", data['steps'][0]['title'])
 ```
 
@@ -179,7 +179,7 @@ print("Lesson title:", data['steps'][0]['title'])
 | **الطهارة** | `01_Taharah/` | 6 ملفات | المياه، الوضوء، النواقض، الغسل، التيمم، و Boss Level |
 | **الصلاة (المستوى 1)** | `02_Salah/level_1/` | 6 ملفات | المواقيت، الشروط، الأركان، السنن، المبطلات، و Boss Level |
 | **الصلاة (المستوى 2)** | `02_Salah/level_2/` | 6 ملفات | الجماعة، المسافر، الجمعة، الجنائز والعيدين، السهو، و Boss Level |
-| **الصيام (المستوى 1)** | `04_Sawm/` | 6 ملفات | الشروط، الرؤية، النية والأركان، السنن، المفطرات، و Boss Level |
+| **الصيام (المستوى 1)** | `04_Sawm/level_1/` | 6 ملفات | الشروط، الرؤية، النية والأركان، السنن، المفطرات، و Boss Level |
 | **الصيام (المستوى 2)** | `04_Sawm/level_2/` | 7 ملفات | الأعذار، الكفارة، النوافل والمحرم، الاعتكاف، النذر، Boss، وملحق إثرائي |
 
 ---

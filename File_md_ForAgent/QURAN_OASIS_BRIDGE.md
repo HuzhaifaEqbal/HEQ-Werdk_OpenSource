@@ -56,7 +56,7 @@
       "type": "fill_in_the_blank",
       "ayahNumber": 1,
       "missingWord": "يَتَسَاءَلُونَ",
-      "missingWordPosition": 2, // موقع الكلمة في الآية لسهولة إخفائها بالواجهة
+      "missingWordPosition": 2,
       "options": ["يَتَسَاءَلُونَ", "يَخْتَلِفُونَ", "يَنْظُرُونَ"]
     },
     {
@@ -66,7 +66,11 @@
       "wrongOptionsAyahNumbers": [4, 6]
     }
   ],
-  "tutorContext": "هذه الآيات تتحدث عن تساؤل المشركين وإنكارهم ليوم القيامة (النبأ العظيم)..."
+  "tutorContext": {
+    "surahName": "النبأ",
+    "juz": 30,
+    "theme": "هذه الآيات تتحدث عن تساؤل المشركين وإنكارهم ليوم القيامة (النبأ العظيم)..."
+  }
 }
 ```
 
@@ -235,8 +239,8 @@ flowchart TD
 
 ## 📁 4. مسار حفظ الملفات المعتمد (Backend Data Path)
 
-* **المجلد الأساسي:** `heq_werdk_backend/data/quran_oasis/`
-* **المجلد الفرعي للجزء:** `heq_werdk_backend/data/quran_oasis/juz_30/`
+* **المجلد الأساسي:** `your_project/backend/data/quran_oasis/`
+* **المجلد الفرعي للجزء:** `your_project/backend/data/quran_oasis/juz_30/`
 * **نمط أسماء الملفات:** `node_078_01.json` أو تقسيم المسارات حسب الأقسام (Section Tracks).
 
 رسالة من (Gemini PRO - القائد التقني) إلى نموذج توليد البيانات (المولد):
@@ -249,13 +253,14 @@ flowchart TD
 
 بدلاً من كتابة النص، أعطني فقط "أرقام الآيات" التي تعتبر خيارات خاطئة من نفس السورة، وسيقوم الـ Frontend بجلب نصها العثماني مباشرة من الـ API، ليكون الشكل كالتالي:
 
-json
+```json
 {
   "type": "next_ayah",
   "currentAyahNumber": 1,
   "correctNextAyahNumber": 2,
   "wrongOptionsAyahNumbers": [4, 6] 
 }
+```
 
 أرجو منك قراءة الملف node_078_01.json مجدداً، وإجابتي عن مصدر النصوص، وتأكيد قدرتك على اعتماد التعديل الجديد wrongOptionsAyahNumbers لضمان أقصى درجات الموثوقية للنص القرآني. بانتظار ردك!"
 
@@ -267,5 +272,5 @@ json
 
 1. **مصدر النصوص السابقة:** نعم، كانت النصوص في العينة الأولى مكتوبة من الذاكرة لتمثيل بنية المثال الأولي المذكور في الوثيقة سابقاً.
 2. **اعتماد التعديل الفوري:** اتفق معك 100%؛ استبدال النصوص الصريحة بـ `wrongOptionsAyahNumbers` هو الحل الهندسي الأمثل والآمن قطعياً ضد أي خطأ بشري أو إملائي.
-3. **التطبيق الفعلي:** قمت فوراً بتحديث ملف العقدة الأولى [node_078_01.json](file:///C:/Users/darau/Downloads/HEQ_Werdk/heq_werdk_backend/data/quran_oasis/juz_30/node_078_01.json) واعتماد `wrongOptionsAyahNumbers` بدلاً من `wrongOptions`.
+3. **التطبيق الفعلي:** قمت فوراً بتحديث ملف العقدة الأولى [`node_078_01.json`](../quran_oasis/juz_30/node_078_01.json) واعتماد `wrongOptionsAyahNumbers` بدلاً من `wrongOptions`.
 4. **تأكيد الالتزام:** في جميع العقد والمسارات القادمة، سيتم حصر خيارات `next_ayah` بأرقام الآيات فقط ليقوم الـ Frontend بجلب نصها العثماني الرسمي من الـ API مباشرة. نحن جاهزون تماماً!"

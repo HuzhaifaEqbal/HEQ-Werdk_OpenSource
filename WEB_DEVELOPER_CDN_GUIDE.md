@@ -1,9 +1,31 @@
-# 🌐 دليل روابط الاستدعاء المباشر لمهندس الموقع (Web Developer CDN Directory)
+# 🌐 برومبت ودليل استدعاء البيانات الإسلامية المفتوحة
+## (Open Islamic Data Integration Guide & Prompt for Developers & AI Models)
 
-> **موجّه لمهندس ومطور الموقع:** هذا الملف يحتوي على جميع روابط الـ CDN المباشرة لاستدعاء مجموعات البيانات الإسلامية (JSON) والوسائط دون الحاجة للدخول إلى مستودع GitHub.
-> الروابط مفعّلة عبر شبكة توزيع المحتوى العالمية **jsDelivr CDN** ومزودة بـ CORS مفتوح افتراضياً لتعمل فوراً في تطبيقات الويب والهواتف بدون أي قيود أو حدود للمعدل (Rate Limits).
+> ### 📌 الوظائف والمهام الأساسية لهذا الملف (File Functions & Scope):
+> * **فهرس استدعاء البيانات المفتوحة (Public Data API & CDN Catalog):** دليل هندسي شامل لروابط الـ JSON والوسائط الرقمية لتمكين المطورين والباحثين ونماذج الذكاء الاصطناعي من استدعاء المناهج الإسلامية دون الحاجة لتنزيل المستودع.
+> * **الاستدعاء السحابي المباشر عبر الـ CDN:** توفير نقاط نهاية سريعة مجانية ومفتوحة عبر شبكة jsDelivr العالمية مع دعم كامل للـ CORS وبدون حدود للمعدل (Rate Limits).
+> * **نماذج برمجية جاهزة للربط الفوري:** توفير قوالب ربط جاهزة للواجهات الأمامية والتطبيقات (React, Next.js, Vue, Flutter, Vanilla JS).
+> * **الفئة المستهدفة:** المطورون، مهندسو البرمجيات، مصممو التطبيقات، ونماذج الذكاء الاصطناعي لبناء واجهات ومنصات إسلامية عصرية وتفاعلية.
 
 ---
+
+> ### 🤖 برومبت التوجيه للذكاء الاصطناعي (Master AI Prompt to Copy-Paste):
+> **انسخ النص التالي ووجهه مباشرة إلى نموذج الذكاء الاصطناعي (Claude / GPT / Gemini):**
+> ```text
+> بصفتك مهندس برمجيات واجهات أمامية ومطور تطبيقات إسلامية (Lead Frontend Engineer & Islamic Apps Architect):
+> أنت مكلف ببناء واجهة مستخدم أو تطبيق (Web / Mobile App) يستهلك المناهج والبيانات الإسلامية مفتوحة المصدر (Digital Waqf) الموثقة في هذا الدليل.
+> 
+> إرشادات البناء والتنفيذ:
+> 1. بنية التطبيق: أنشئ خدمة استدعاء بيانات `your_project/services/islamic_api_service` لجلب ملفات المانيفست `manifest.json` أولاً، ثم بناء القوائم والتصنيفات ديناميكياً.
+> 2. روابط الـ CDN: استخدم روابط الـ CDN المباشرة الموضحة في الجداول أدناه لجلب المناهج (التجويد، الفقه، السيرة، الأربعين النووية، وواحة القرآن).
+> 3. إدارة الحالة والأداء: فعّل التخزين المؤقت المحلي (Caching / Local Storage) للبيانات المسترجعة، واقرأ النصوص بترميز UTF-8 لحفظ التشكيل والخطوط القرآنية.
+> 4. ابدأ الآن بإنشاء هيكل الخدمة والمكونات التفاعلية وفقاً للوثيقة أدناه.
+> ```
+
+---
+
+> **ملاحظة للمطورين والمستخدمين:** هذا الملف يحتوي على جميع روابط الـ CDN المباشرة لاستدعاء مجموعات البيانات الإسلامية (JSON) والوسائط دون الحاجة للدخول إلى مستودع GitHub.
+> الروابط مفعّلة عبر شبكة توزيع المحتوى العالمية **jsDelivr CDN** ومزودة بـ CORS مفتوح افتراضياً لتعمل فوراً في تطبيقات الويب والهواتف.
 
 ## 📌 الصيغة القياسية للروابط (URL Pattern)
 
@@ -41,11 +63,11 @@ https://cdn.jsdelivr.net/gh/HuzhaifaEqbal/HEQ-Werdk_OpenSource@main/{DIRECTORY}/
 
 | الملف | الرابط المباشر (jsDelivr CDN) | وصف المحتوى ووظيفته |
 | :--- | :--- | :--- |
-| **المتون الكاملة (جميع الـ 42 حديث)** | [`nawawi_40_complete.json`](https://cdn.jsdelivr.net/gh/HuzhaifaEqbal/HEQ-Werdk_OpenSource@main/ALnawoi/nawawi_40_complete.json) | يحتوي على جميع الأحاديث الـ 42 كاملة مع المتن، السند، التخريج، والمفردات في ملف واحد |
+| **المتون المكتملة (40 حديثاً)** | [`nawawi_40_complete.json`](https://cdn.jsdelivr.net/gh/HuzhaifaEqbal/HEQ-Werdk_OpenSource@main/ALnawoi/nawawi_40_complete.json) | يحتوي على الأحاديث الأربعين المعتمدة في هذا الإصدار مع المتن، السند، التخريج، والمفردات في مصفوفة JSON واحدة (قيد الدراسة استكمال الحديثين 41 و42) |
 | **الدفعة 1 (الأحاديث 1 - 10)** | [`nawawi_40_batch_01.json`](https://cdn.jsdelivr.net/gh/HuzhaifaEqbal/HEQ-Werdk_OpenSource@main/ALnawoi/nawawi_40_batch_01.json) | أحاديث النية، أركان الإسلام والإيمان، النهي عن الابتداع، الحلال والحرام، النصيحة |
 | **الدفعة 2 (الأحاديث 11 - 20)** | [`nawawi_40_batch_02.json`](https://cdn.jsdelivr.net/gh/HuzhaifaEqbal/HEQ-Werdk_OpenSource@main/ALnawoi/nawawi_40_batch_02.json) | الورع والشك، ترك ما لا يعني، حب الخير للمؤمنين، حرمة دم المسلم، إكرام الجار، الحياء |
 | **الدفعة 3 (الأحاديث 21 - 30)** | [`nawawi_40_batch_03.json`](https://cdn.jsdelivr.net/gh/HuzhaifaEqbal/HEQ-Werdk_OpenSource@main/ALnawoi/nawawi_40_batch_03.json) | الاستقامة، أبواب الخير والصدقة، كف اللسان، حدود الله وفرائضه |
-| **الدفعة 4 (الأحاديث 31 - 42)** | [`nawawi_40_batch_04.json`](https://cdn.jsdelivr.net/gh/HuzhaifaEqbal/HEQ-Werdk_OpenSource@main/ALnawoi/nawawi_40_batch_04.json) | الزهد، لا ضرر ولا ضرار، البينة على المدعي، تغيير المنكر، فضل الذكر ومغفرة الذنوب |
+| **الدفعة 4 (الأحاديث 31 - 40)** | [`nawawi_40_batch_04.json`](https://cdn.jsdelivr.net/gh/HuzhaifaEqbal/HEQ-Werdk_OpenSource@main/ALnawoi/nawawi_40_batch_04.json) | الزهد، لا ضرر ولا ضرار، البينة على المدعي، تغيير المنكر، فضل الذكر ومغفرة الذنوب |
 
 ---
 
@@ -85,29 +107,37 @@ https://cdn.jsdelivr.net/gh/HuzhaifaEqbal/HEQ-Werdk_OpenSource@main/{DIRECTORY}/
 | **اختبار التحدي للطهارة** | [`06_boss_level_taharah.json`](https://cdn.jsdelivr.net/gh/HuzhaifaEqbal/HEQ-Werdk_OpenSource@main/fiqh/01_Taharah/06_boss_level_taharah.json) | أسئلة نوازل وسيناريوهات فقهية مجمعة |
 
 #### 2. قسم الصلاة (`fiqh/02_Salah`)
-* **المستوى 1 (الشروط والأركان والسنن):**
-  - شروط الصلاة: [`level_1/01_conditions_of_prayer.json`](https://cdn.jsdelivr.net/gh/HuzhaifaEqbal/HEQ-Werdk_OpenSource@main/fiqh/02_Salah/level_1/01_conditions_of_prayer.json)
-  - أركان الصلاة (13 أو 17 ركناً): [`level_1/02_pillars_of_prayer.json`](https://cdn.jsdelivr.net/gh/HuzhaifaEqbal/HEQ-Werdk_OpenSource@main/fiqh/02_Salah/level_1/02_pillars_of_prayer.json)
-  - سنن الأبعاض والهيئات: [`level_1/03_sunan_of_prayer.json`](https://cdn.jsdelivr.net/gh/HuzhaifaEqbal/HEQ-Werdk_OpenSource@main/fiqh/02_Salah/level_1/03_sunan_of_prayer.json)
-  - مبطلات الصلاة: [`level_1/04_invalidators_of_prayer.json`](https://cdn.jsdelivr.net/gh/HuzhaifaEqbal/HEQ-Werdk_OpenSource@main/fiqh/02_Salah/level_1/04_invalidators_of_prayer.json)
-  - اختبار المستوى الأول: [`level_1/05_boss_level_salah_basics.json`](https://cdn.jsdelivr.net/gh/HuzhaifaEqbal/HEQ-Werdk_OpenSource@main/fiqh/02_Salah/level_1/05_boss_level_salah_basics.json)
-* **المستوى 2 (الجماعة، المسافر، الجمعة، السهو):**
-  - سجود السهو والتلاوة: [`level_2/01_sujud_al_sahw_and_tilawah.json`](https://cdn.jsdelivr.net/gh/HuzhaifaEqbal/HEQ-Werdk_OpenSource@main/fiqh/02_Salah/level_2/01_sujud_al_sahw_and_tilawah.json)
-  - صلاة الجماعة والإمامة: [`level_2/02_congregational_prayer.json`](https://cdn.jsdelivr.net/gh/HuzhaifaEqbal/HEQ-Werdk_OpenSource@main/fiqh/02_Salah/level_2/02_congregational_prayer.json)
-  - صلاة المسافر (القصر والجمع): [`level_2/03_traveler_prayer.json`](https://cdn.jsdelivr.net/gh/HuzhaifaEqbal/HEQ-Werdk_OpenSource@main/fiqh/02_Salah/level_2/03_traveler_prayer.json)
-  - صلاة الجمعة وأحكامها: [`level_2/04_friday_prayer.json`](https://cdn.jsdelivr.net/gh/HuzhaifaEqbal/HEQ-Werdk_OpenSource@main/fiqh/02_Salah/level_2/04_friday_prayer.json)
-  - صلاة الجنازة: [`level_2/05_funeral_prayer.json`](https://cdn.jsdelivr.net/gh/HuzhaifaEqbal/HEQ-Werdk_OpenSource@main/fiqh/02_Salah/level_2/05_funeral_prayer.json)
-  - اختبار المستوى المتقدم: [`level_2/06_boss_level_salah_advanced.json`](https://cdn.jsdelivr.net/gh/HuzhaifaEqbal/HEQ-Werdk_OpenSource@main/fiqh/02_Salah/level_2/06_boss_level_salah_advanced.json)
+* **المستوى 1 (المواقيت، الشروط، الأركان، السنن، والمبطلات):**
+  - مواقيت الصلوات الخمس والأذان: [`level_1/01_prayer_times_and_adhan.json`](https://cdn.jsdelivr.net/gh/HuzhaifaEqbal/HEQ-Werdk_OpenSource@main/fiqh/02_Salah/level_1/01_prayer_times_and_adhan.json)
+  - شروط صحة الصلاة: [`level_1/02_conditions_of_prayer.json`](https://cdn.jsdelivr.net/gh/HuzhaifaEqbal/HEQ-Werdk_OpenSource@main/fiqh/02_Salah/level_1/02_conditions_of_prayer.json)
+  - أركان الصلاة وسننها: [`level_1/03_pillars_and_sunnahs.json`](https://cdn.jsdelivr.net/gh/HuzhaifaEqbal/HEQ-Werdk_OpenSource@main/fiqh/02_Salah/level_1/03_pillars_and_sunnahs.json)
+  - سنن الأبعاض والهيئات وسجود السهو: [`level_1/04_abd_hayat_and_sujood.json`](https://cdn.jsdelivr.net/gh/HuzhaifaEqbal/HEQ-Werdk_OpenSource@main/fiqh/02_Salah/level_1/04_abd_hayat_and_sujood.json)
+  - مبطلات الصلاة ومكروهاتها: [`level_1/05_nullifiers_and_disliked_acts.json`](https://cdn.jsdelivr.net/gh/HuzhaifaEqbal/HEQ-Werdk_OpenSource@main/fiqh/02_Salah/level_1/05_nullifiers_and_disliked_acts.json)
+  - اختبار المستوى الأول الشامل: [`level_1/06_boss_level_salah.json`](https://cdn.jsdelivr.net/gh/HuzhaifaEqbal/HEQ-Werdk_OpenSource@main/fiqh/02_Salah/level_1/06_boss_level_salah.json)
+* **المستوى 2 (الجماعة، المسافر، الجمعة، الجنائز، والصلوات الخاصة):**
+  - صلاة الجماعة والإمامة: [`level_2/01_congregational_prayer_and_imamate.json`](https://cdn.jsdelivr.net/gh/HuzhaifaEqbal/HEQ-Werdk_OpenSource@main/fiqh/02_Salah/level_2/01_congregational_prayer_and_imamate.json)
+  - صلاة المسافر (القصر والجمع): [`level_2/02_traveler_prayer.json`](https://cdn.jsdelivr.net/gh/HuzhaifaEqbal/HEQ-Werdk_OpenSource@main/fiqh/02_Salah/level_2/02_traveler_prayer.json)
+  - صلاة الجمعة وأحكامها: [`level_2/03_friday_prayer.json`](https://cdn.jsdelivr.net/gh/HuzhaifaEqbal/HEQ-Werdk_OpenSource@main/fiqh/02_Salah/level_2/03_friday_prayer.json)
+  - الصلوات الخاصة (العيدين، الكسوف، والاستسقاء والجنائز): [`level_2/04_special_prayers_and_funerals.json`](https://cdn.jsdelivr.net/gh/HuzhaifaEqbal/HEQ-Werdk_OpenSource@main/fiqh/02_Salah/level_2/04_special_prayers_and_funerals.json)
+  - سجدات السهو والتلاوة والشكر: [`level_2/05_prostrations_sahw_tilawah_shukr.json`](https://cdn.jsdelivr.net/gh/HuzhaifaEqbal/HEQ-Werdk_OpenSource@main/fiqh/02_Salah/level_2/05_prostrations_sahw_tilawah_shukr.json)
+  - اختبار المستوى الثاني المتقدم: [`level_2/06_boss_level_salah_l2.json`](https://cdn.jsdelivr.net/gh/HuzhaifaEqbal/HEQ-Werdk_OpenSource@main/fiqh/02_Salah/level_2/06_boss_level_salah_l2.json)
 
 #### 3. قسم الصيام (`fiqh/04_Sawm`)
-* **المستوى 1 (الأركان والمفطرات):**
-  - أركان الصيام وشروطه: [`level_1/01_sawm_pillars_and_conditions.json`](https://cdn.jsdelivr.net/gh/HuzhaifaEqbal/HEQ-Werdk_OpenSource@main/fiqh/04_Sawm/level_1/01_sawm_pillars_and_conditions.json)
-  - مفطرات الصوم ومكروهاته: [`level_1/02_sawm_nullifiers.json`](https://cdn.jsdelivr.net/gh/HuzhaifaEqbal/HEQ-Werdk_OpenSource@main/fiqh/04_Sawm/level_1/02_sawm_nullifiers.json)
-  - اختبار الصوم الميسر: [`level_1/03_boss_level_sawm_basics.json`](https://cdn.jsdelivr.net/gh/HuzhaifaEqbal/HEQ-Werdk_OpenSource@main/fiqh/04_Sawm/level_1/03_boss_level_sawm_basics.json)
-* **المستوى 2 (القضاء والأعذار وزكاة الفطر):**
-  - رخص الإفطار والقضاء والكفارة: [`level_2/01_sawm_exemptions_and_qada.json`](https://cdn.jsdelivr.net/gh/HuzhaifaEqbal/HEQ-Werdk_OpenSource@main/fiqh/04_Sawm/level_2/01_sawm_exemptions_and_qada.json)
-  - زكاة الفطر وصيام التطوع: [`level_2/02_zakat_alfitr_and_sunnah_fasting.json`](https://cdn.jsdelivr.net/gh/HuzhaifaEqbal/HEQ-Werdk_OpenSource@main/fiqh/04_Sawm/level_2/02_zakat_alfitr_and_sunnah_fasting.json)
-  - اختبار الصيام المتقدم: [`level_2/03_boss_level_sawm_advanced.json`](https://cdn.jsdelivr.net/gh/HuzhaifaEqbal/HEQ-Werdk_OpenSource@main/fiqh/04_Sawm/level_2/03_boss_level_sawm_advanced.json)
+* **المستوى 1 (الشروط، الرؤية، النية، الآداب والمفطرات):**
+  - تعريف الصيام وشروطه: [`level_1/01_fasting_definition_and_conditions.json`](https://cdn.jsdelivr.net/gh/HuzhaifaEqbal/HEQ-Werdk_OpenSource@main/fiqh/04_Sawm/level_1/01_fasting_definition_and_conditions.json)
+  - ثبوت الشهر وليلة القدر: [`level_1/02_moon_sighting_and_laylat_al_qadr.json`](https://cdn.jsdelivr.net/gh/HuzhaifaEqbal/HEQ-Werdk_OpenSource@main/fiqh/04_Sawm/level_1/02_moon_sighting_and_laylat_al_qadr.json)
+  - أركان الصوم والنية والإمساك: [`level_1/03_fasting_intention_and_abstinence.json`](https://cdn.jsdelivr.net/gh/HuzhaifaEqbal/HEQ-Werdk_OpenSource@main/fiqh/04_Sawm/level_1/03_fasting_intention_and_abstinence.json)
+  - سنن الصيام وآدابه: [`level_1/04_fasting_sunnahs_and_etiquette.json`](https://cdn.jsdelivr.net/gh/HuzhaifaEqbal/HEQ-Werdk_OpenSource@main/fiqh/04_Sawm/level_1/04_fasting_sunnahs_and_etiquette.json)
+  - مفطرات الصوم ومكروهاته: [`level_1/05_fasting_invalidators_and_disliked_acts.json`](https://cdn.jsdelivr.net/gh/HuzhaifaEqbal/HEQ-Werdk_OpenSource@main/fiqh/04_Sawm/level_1/05_fasting_invalidators_and_disliked_acts.json)
+  - اختبار المستوى الأول للصيام: [`level_1/06_boss_level_sawm.json`](https://cdn.jsdelivr.net/gh/HuzhaifaEqbal/HEQ-Werdk_OpenSource@main/fiqh/04_Sawm/level_1/06_boss_level_sawm.json)
+* **المستوى 2 (الأعذار، الفدية، الكفارة، النوافل والاعتكاف):**
+  - الأعذار المبيحة للفطر والفدية: [`level_2/01_fasting_excuses_and_redemption.json`](https://cdn.jsdelivr.net/gh/HuzhaifaEqbal/HEQ-Werdk_OpenSource@main/fiqh/04_Sawm/level_2/01_fasting_excuses_and_redemption.json)
+  - الكفارة الكبرى والإمساك لحرمة الوقت: [`level_2/02_fasting_expiation_and_holding_time.json`](https://cdn.jsdelivr.net/gh/HuzhaifaEqbal/HEQ-Werdk_OpenSource@main/fiqh/04_Sawm/level_2/02_fasting_expiation_and_holding_time.json)
+  - صوم التطوع والأيام المحرمة والمكروهة: [`level_2/03_fasting_voluntary_and_prohibited_days.json`](https://cdn.jsdelivr.net/gh/HuzhaifaEqbal/HEQ-Werdk_OpenSource@main/fiqh/04_Sawm/level_2/03_fasting_voluntary_and_prohibited_days.json)
+  - أحكام الاعتكاف وسننه ومبطلاته: [`level_2/04_fasting_i'tikaf_sunnah_and_invalidators.json`](https://cdn.jsdelivr.net/gh/HuzhaifaEqbal/HEQ-Werdk_OpenSource@main/fiqh/04_Sawm/level_2/04_fasting_i'tikaf_sunnah_and_invalidators.json)
+  - أحكام النذر والتتابع في الصوم: [`level_2/05_fasting_vows_and_continuity_rules.json`](https://cdn.jsdelivr.net/gh/HuzhaifaEqbal/HEQ-Werdk_OpenSource@main/fiqh/04_Sawm/level_2/05_fasting_vows_and_continuity_rules.json)
+  - اختبار الصيام المتقدم: [`level_2/06_boss_level_sawm_l2.json`](https://cdn.jsdelivr.net/gh/HuzhaifaEqbal/HEQ-Werdk_OpenSource@main/fiqh/04_Sawm/level_2/06_boss_level_sawm_l2.json)
+  - الملحق الإثرائي (المفاهيم الشائعة والمستحبات): [`level_2/fasting_enrichment_misconceptions.json`](https://cdn.jsdelivr.net/gh/HuzhaifaEqbal/HEQ-Werdk_OpenSource@main/fiqh/04_Sawm/level_2/fasting_enrichment_misconceptions.json)
 
 ---
 
@@ -132,11 +162,18 @@ https://cdn.jsdelivr.net/gh/HuzhaifaEqbal/HEQ-Werdk_OpenSource@main/{DIRECTORY}/
 
 ### 🌿 سادساً: مسار واحة القرآن والحفظ المصغر (`/quran_oasis`)
 
+#### طريقة استخدام العقد القرآنية:
+العقد الموجودة في هذا المستودع مبنية وفق خوارزميات المشروع، لذلك عدد العقد وطول كل عقدة مو ثابتين في جميع السور والدروس.
+
+فينا نستخدم العقد الجاهزة كما هي، أو نعدّل طريقة تقسيمها حسب احتياجات التطبيق والخوارزمية المستخدمة. ويمكن استدعاء كل عقدة بشكل مستقل في Flutter أو أي إطار عمل آخر، بدل تحميل جميع العقد دفعة واحدة.
+
+أما تفسير الآيات، فيمكن جلبه عند الحاجة من خلال API يختاره المطوّر، بدلاً من تخزين تفسير مكرر داخل ملفات العقد. في الأمثلة التوضيحية سنستخدم الاسم `your_API_ForTafseer` للدلالة على واجهة التفسير التي يحددها المطوّر؛ وهذا اسم بديل وليس API جاهزاً مقدّماً من المستودع.
+
 * **سورة الفاتحة (الجزء 1):**
   - الآيات (1-7): [`juz_01/node_001_01.json`](https://cdn.jsdelivr.net/gh/HuzhaifaEqbal/HEQ-Werdk_OpenSource@main/quran_oasis/juz_01/node_001_01.json)
 * **سورة الملك (الجزء 29):**
   - المقطع الأول: [`juz_29/node_067_01.json`](https://cdn.jsdelivr.net/gh/HuzhaifaEqbal/HEQ-Werdk_OpenSource@main/quran_oasis/juz_29/node_067_01.json)
-* **جزء عمّ (الجزء 30 - 128 عقدة حفظ مصغر):**
+* **جزء عمّ (الجزء 30 - 108 عقدة حفظ مصغر):**
   - سورة النبأ (المقطع 1): [`juz_30/node_078_01.json`](https://cdn.jsdelivr.net/gh/HuzhaifaEqbal/HEQ-Werdk_OpenSource@main/quran_oasis/juz_30/node_078_01.json)
   - سورة الإخلاص: [`juz_30/node_112_01.json`](https://cdn.jsdelivr.net/gh/HuzhaifaEqbal/HEQ-Werdk_OpenSource@main/quran_oasis/juz_30/node_112_01.json)
   - سورة الفلق: [`juz_30/node_113_01.json`](https://cdn.jsdelivr.net/gh/HuzhaifaEqbal/HEQ-Werdk_OpenSource@main/quran_oasis/juz_30/node_113_01.json)
@@ -157,7 +194,7 @@ https://cdn.jsdelivr.net/gh/HuzhaifaEqbal/HEQ-Werdk_OpenSource@main/{DIRECTORY}/
 
 ---
 
-## 💻 4. نماذج أكواد جاهزة للنسخ المباشر للموقع (Copy-Paste Code Snippets)
+## 💻 4. نماذج أكواد برمجية جاهزة للربط والاستدعاء (Code Snippets for Web & Mobile)
 
 ### 1️⃣ جافاسكريبت نقية (Vanilla JavaScript / Fetch API)
 
@@ -177,8 +214,8 @@ async function fetchIslamicData(path) {
 
 // مثال: استدعاء متن الأربعين النووية كاملاً
 fetchIslamicData('ALnawoi/nawawi_40_complete.json').then(data => {
-  console.log(`تم تحميل ${data.total_hadiths} حديث بنجاح!`);
-  console.log('الحديث الأول:', data.hadiths[0].matn);
+  console.log(`تم تحميل ${data.length} حديث بنجاح!`);
+  console.log('الحديث الأول:', data[0].matn);
 });
 ```
 
@@ -235,7 +272,7 @@ class IslamicCdnService {
 
 ---
 
-## ⚡ 5. ملاحظات تقنية هامة لمهندس الموقع (Technical Notes)
+## ⚡ 5. ملاحظات تقنية هامة للمطورين (Technical Notes for Developers)
 
 1. **دعم الـ CORS:** جميع الروابط تدعم `Access-Control-Allow-Origin: *` افتراضياً، وتعمل عبر أي دومين.
 2. **السرعة والكاش (Caching):** تقوم شبكة jsDelivr بتوزيع الملفات على مئات السيرفرات السحابية العالمية لتقليل زمن الاستجابة (Latency < 25ms).

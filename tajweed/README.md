@@ -4,17 +4,17 @@
 > **Repository:** [https://github.com/HuzhaifaEqbal/HEQ-Werdk_OpenSource](https://github.com/HuzhaifaEqbal/HEQ-Werdk_OpenSource)  
 > **Direct Raw Endpoint:** `https://raw.githubusercontent.com/HuzhaifaEqbal/HEQ-Werdk_OpenSource/main/tajweed/`  
 > **Global Fast CDN (jsDelivr):** `https://cdn.jsdelivr.net/gh/HuzhaifaEqbal/HEQ-Werdk_OpenSource@main/tajweed/`  
-> **Format:** 100% Verified UTF-8 JSON | **Total Modules:** 10 | **Total Files:** 50
+> **Format:** JSON (UTF-8) | **Total Modules:** 10 | **Total Files:** 50
 
 ---
 
 ## 🌍 نظرة عامة (Overview)
 
 ### 🇸🇦 بالعربية
-مستودع بيانات التجويد التفاعلي المفتوح هو عبارة عن منهج علمي متكامل مكوّن من **10 أبواب تعليمية** و **50 ملف JSON معتمد**. صُممت البيانات بنمط التعليم المصغر (Micro-learning) الشبيه بتطبيقات التعلم العالمية (مثل Duolingo)، حيث يتناوب كل درس بين بطاقة مفهوم علمي ميسر (`concept`) مزود بأمثلة صوتية، وبطاقة سؤال تفاعلي تطبيقي (`question`). يختتم كل باب باختبار نهائي شامل للمرحلة (`boss_level`).
+مستودع بيانات التجويد التفاعلي المفتوح هو منهج تعليمي مكوّن من **10 أبواب تعليمية** و **50 ملف JSON**. صُممت البيانات بنمط التعليم المصغر (Micro-learning)، حيث يتناوب كل درس بين بطاقة مفهوم علمي ميسر (`concept`) مزود بأمثلة صوتية، وبطاقة سؤال تفاعلي تطبيقي (`question`). يختتم كل باب باختبار نهائي شامل للمرحلة (`boss_level`).
 
 ### 🇬🇧 In English
-The Open Interactive Tajweed Curriculum provides a production-grade educational dataset consisting of **10 comprehensive modules** and **50 structured JSON files**. Designed using a gamified micro-learning pattern, each lesson alternates between bite-sized instructional concepts with audio references and immediate interactive quiz checkpoints. Every module concludes with a comprehensive "Boss Level" evaluation.
+The Open Interactive Tajweed Curriculum provides an educational dataset consisting of **10 structured modules** and **50 JSON files**. Designed using a micro-learning pattern, each lesson alternates between bite-sized instructional concepts with audio references and immediate interactive quiz checkpoints. Every module concludes with a comprehensive "Boss Level" evaluation.
 
 ---
 
@@ -184,6 +184,16 @@ print(f"Loaded lesson with {len(lesson['steps'])} steps")
 | 8 | `08_Relations_Between_Letters` | العلاقات بين الحروف | Letter Relationships | 4 دروس + Boss Level |
 | 9 | `09_Hamzat_and_Waqf` | الهمزات والوقف | Hamzah & Waqf | 4 دروس + Boss Level |
 | 10 | `10_Maqtoo_Mawsool_and_Conclusion` | المقطوع والموصول والخاتمة | Maqtoo, Mawsool & Conclusion | 4 دروس + Boss Level |
+
+## 📚 المراجع العلمية المعتمدة لمنهج التجويد (Scholarly References)
+
+المحتوى العلمي للتجويد مستنبط وفق رواية حفص عن عاصم من طريق الشاطبية، استناداً إلى أمهات المتون والكتب التراثية المعتمدة:
+1. **المقدمة الجزرية (متن الجزرية)** — الإمام شمس الدين محمد بن محمد بن الجزري (ت 833 هـ).
+2. **تحفة الأطفال والغلمان في تجويد القرآن** — الشيخ سليمان بن حسين الجمزوري (ت بعد 1198 هـ).
+3. **التحديد في الإتقان والتسديد** — الإمام أبو عمرو عثمان بن سعيد الداني (ت 444 هـ).
+4. **غاية المريد في علم التجويد** — الشيخ عطية قابل نصر.
+5. **حق التلاوة** — الشيخ حسني شيخ عثمان.
+6. **أحكام قراءة القرآن الكريم** — الشيخ محمود خليل الحصري.
 
 ---
 

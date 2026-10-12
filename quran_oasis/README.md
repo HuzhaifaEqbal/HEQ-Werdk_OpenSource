@@ -1,29 +1,37 @@
 # 🕋 واحة القرآن الكريم — دليل المطور واستدعاء بيانات الحفظ المصغر
 ## (Quran Oasis Micro-Hifz Curriculum — Developer & API Integration Guide)
 
-> **Repository:** [https://github.com/HuzhaifaEqbal/HEQ-Werdk_OpenSource](https://github.com/HuzhaifaEqbal/HEQ-Werdk_OpenSource)  
-> **Direct Raw Endpoint:** `https://raw.githubusercontent.com/HuzhaifaEqbal/HEQ-Werdk_OpenSource/main/quran_oasis/`  
-> **Global Fast CDN (jsDelivr):** `https://cdn.jsdelivr.net/gh/HuzhaifaEqbal/HEQ-Werdk_OpenSource@main/quran_oasis/`  
-> **Script:** Uthmanic Arabic Script (الرسم العثماني المعتمد)  
-> **Core Principle:** **ممنوع البعثرة مطلقاً (STRICTLY NO SCRAMBLING)**  
-> **Format:** 100% Validated UTF-8 JSON
+> **المستودع:** [https://github.com/HuzhaifaEqbal/HEQ-Werdk_OpenSource](https://github.com/HuzhaifaEqbal/HEQ-Werdk_OpenSource)  
+> **الرابط المباشر (Raw):** `https://raw.githubusercontent.com/HuzhaifaEqbal/HEQ-Werdk_OpenSource/main/quran_oasis/`  
+> **شبكة التوزيع (jsDelivr CDN):** `https://cdn.jsdelivr.net/gh/HuzhaifaEqbal/HEQ-Werdk_OpenSource@main/quran_oasis/`  
+> **الخط والرسم:** الرسم العثماني المصحفي  
+> **الضابط الأساسي:** **ممنوع البعثرة مطلقاً (STRICTLY NO SCRAMBLING)**  
+> **الصيغة:** JSON (UTF-8)
 
 ---
 
 ## 🌍 نظرة عامة (Overview)
 
 ### 🇸🇦 بالعربية
-توفر واحة القرآن الكريم هيكلية بيانات قرآنية مبتكرة تعتمد على أسلوب **الحفظ المصغر (Micro-Hifz)**. يتم تقسيم كل سورة قرآنية إلى عقد تعليمية صغيرة ومتسلسلة (تتراوح بين 3 إلى 5 آيات لكل عقدة)، تتضمن أنشطة تفاعلية لترسيخ الحفظ:
-1. **تحدي الكلمة المفقودة بالرسم العثماني (`fill_in_the_blank`):** اختبار المتشابهات ورسم الكلمات دون تشتيت.
-2. **تحدي تخمين الآية التالية (`next_ayah`):** تمكين روابط الوصل بين الآيات ومنع التردد.
-3. **سياق المعلم الذكي (`tutorContext`):** معاني الآيات والمحور الموضوعي للرد الفوري على أسئلة الطالب.
-> **قاعدة شرعية صارمة:** يُحظر تماماً أي نشاط لبعثرة أو إعادة ترتيب كلمات القرآن الكريم أو الآيات احتراماً لقدسية كلام الله عز وجل.
+### طريقة استخدام العقد القرآنية
+
+العقد الموجودة في هذا المستودع مبنية وفق خوارزميات المشروع، لذلك عدد العقد وطول كل عقدة مو ثابتين في جميع السور والدروس.
+
+فينا نستخدم العقد الجاهزة كما هي، أو نعدّل طريقة تقسيمها حسب احتياجات التطبيق والخوارزمية المستخدمة. ويمكن استدعاء كل عقدة بشكل مستقل في Flutter أو أي إطار عمل آخر، بدل تحميل جميع العقد دفعة واحدة.
+
+أما تفسير الآيات، فيمكن جلبه عند الحاجة من خلال API يختاره المطوّر، بدلاً من تخزين تفسير مكرر داخل ملفات العقد. في الأمثلة التوضيحية سنستخدم الاسم `your_API_ForTafseer` للدلالة على واجهة التفسير التي يحددها المطوّر؛ وهذا اسم بديل وليس API جاهزاً مقدّماً من المستودع.
+
+> **قاعدة شرعية صارمة:** يُحظر تماماً أي نشاط لبعثرة أو إعادة ترتيب كلمات القرآن الكريم أو الآيات احتراماً لقدسية كلام الله عز وجل. الأنشطة المعتمدة تقتصر على ملء الفراغات الموضعية ومعرفة الآية التالية.
 
 ### 🇬🇧 In English
-The Quran Oasis repository delivers an innovative, bite-sized Quran memorization dataset (Micro-Hifz Architecture). Each Surah is structured into sequential micro-learning nodes (3 to 5 verses per node) containing interactive memorization reinforcement activities:
-1. **Uthmanic Fill-in-the-Blank (`fill_in_the_blank`):** Testing accurate recall with authentic mutashabihat distractors.
-2. **Next Ayah Recall (`next_ayah`):** Reinforcing cognitive transitions between consecutive verses.
-3. **Smart Tutor Context (`tutorContext`):** Verse meanings and thematic overviews for conversational AI agents.
+### How to Use Quranic Nodes
+
+The nodes in this repository are structured according to the project's chunking algorithms. Therefore, the number of nodes and the length of each node are not fixed across all Surahs and lessons.
+
+Developers can use the provided nodes as they are, or adapt the segmentation to match their application requirements and algorithms. Each node can be fetched independently in Flutter or other frameworks without downloading the full dataset at once.
+
+For verse interpretations (Tafseer), applications can fetch them on-demand via a developer-selected API rather than duplicating text within node files. In illustrative examples, `your_API_ForTafseer` serves as a placeholder for the developer's chosen Tafseer endpoint, not a bundled service.
+
 > **Sacred Rule:** Strictly no scrambled words or disordered verses are permitted in any activity, preserving the sanctity and exact order of the Noble Quran.
 
 ---
@@ -34,26 +42,26 @@ The Quran Oasis repository delivers an innovative, bite-sized Quran memorization
 ```http
 https://raw.githubusercontent.com/HuzhaifaEqbal/HEQ-Werdk_OpenSource/main/quran_oasis/{JUZ_FOLDER}/{NODE_FILE}
 ```
-**Examples:**
-* An-Naba Node 1 (Juz 30):
+**أمثلة:**
+* عقدة النبأ الأولى (جزء 30):
   ```http
   https://raw.githubusercontent.com/HuzhaifaEqbal/HEQ-Werdk_OpenSource/main/quran_oasis/juz_30/node_078_01.json
   ```
-* Al-Mulk Node 1 (Juz 29):
+* عقدة الإخلاص (جزء 30):
   ```http
-  https://raw.githubusercontent.com/HuzhaifaEqbal/HEQ-Werdk_OpenSource/main/quran_oasis/juz_29/node_067_01.json
+  https://raw.githubusercontent.com/HuzhaifaEqbal/HEQ-Werdk_OpenSource/main/quran_oasis/juz_30/node_112_01.json
   ```
 
-### 2. عبر شبكة التوزيع العالمية فائقة السرعة (jsDelivr CDN)
+### 2. عبر شبكة التوزيع (jsDelivr CDN)
 ```http
 https://cdn.jsdelivr.net/gh/HuzhaifaEqbal/HEQ-Werdk_OpenSource@main/quran_oasis/{JUZ_FOLDER}/{NODE_FILE}
 ```
-**Example:**
+**مثال:**
 ```http
-https://cdn.jsdelivr.net/gh/HuzhaifaEqbal/HEQ-Werdk_OpenSource@main/quran_oasis/juz_30/node_078_01.json
+https://cdn.jsdelivr.net/gh/HuzhaifaEqbal/HEQ-Werdk_OpenSource@main/quran_oasis/juz_30/node_112_01.json
 ```
 
-### 3. الفهرس الديناميكي المجمع (Dynamic Discovery Manifest)
+### 3. الفهرس المجمع (Dynamic Discovery Manifest)
 ```http
 https://cdn.jsdelivr.net/gh/HuzhaifaEqbal/HEQ-Werdk_OpenSource@main/quran_oasis/manifest.json
 ```
@@ -64,34 +72,39 @@ https://cdn.jsdelivr.net/gh/HuzhaifaEqbal/HEQ-Werdk_OpenSource@main/quran_oasis/
 
 ```json
 {
-  "nodeId": "hifz_078_01",
-  "title": "سورة النبأ - المقطع الأول (النبأ العظيم)",
-  "surahId": 78,
+  "nodeId": "node_112_01",
+  "title": "سورة الإخلاص: صفة الرحمن وتوحيد الذات والصفات",
+  "surahId": 112,
   "ayahStart": 1,
-  "ayahEnd": 5,
+  "ayahEnd": 4,
   "activities": [
     {
+      "activityId": "act_112_01_01",
       "type": "fill_in_the_blank",
       "ayahNumber": 1,
-      "missingWord": "يَتَسَاءَلُونَ",
-      "missingWordPosition": 2,
-      "options": ["يَتَسَاءَلُونَ", "يَخْتَلِفُونَ", "يَتَذَكَّرُونَ"]
+      "missingWordPosition": 4,
+      "options": [
+        "أَحَدٌ",
+        "وَاحِدٌ",
+        "عَلِيمٌ",
+        "قَدِيرٌ"
+      ]
     },
     {
+      "activityId": "act_112_01_02",
       "type": "next_ayah",
       "currentAyahNumber": 1,
       "correctNextAyahNumber": 2,
-      "wrongOptionsAyahNumbers": [3, 4]
+      "wrongOptionsAyahNumbers": [
+        3,
+        4
+      ]
     }
   ],
   "tutorContext": {
-    "surahName": "النبأ",
+    "surahName": "الإخلاص",
     "juz": 30,
-    "theme": "بيان عظمة يوم القيامة ودلائل قدرة الله في الكون والرد على المشركين.",
-    "ayahMeanings": {
-      "1": "عن أي شأن عظيم يتساءل هؤلاء المشركون؟",
-      "2": "عن القرآن والبعث والرسالة النبوية التي اختلفوا فيها."
-    }
+    "theme": "بيان صفة الله تعالى وتوحيده الخالص: الأحد الصمد المنزه عن الولد والوالد والمكافئ والمثيل"
   }
 }
 ```
@@ -126,6 +139,17 @@ class QuranOasisService {
     }
     throw Exception('Failed to load Quran node: $nodeFile');
   }
+
+  // 3. Fetch Tafseer upon user demand from developer-chosen API
+  static Future<String> fetchTafseer(int surah, int ayah) async {
+    // your_API_ForTafseer is a placeholder for your chosen Tafseer service
+    final response = await http.get(Uri.parse('https://your_API_ForTafseer?surah=$surah&ayah=$ayah'));
+    if (response.statusCode == 200) {
+      final data = jsonDecode(utf8.decode(response.bodyBytes));
+      return data['text'] ?? '';
+    }
+    return '';
+  }
 }
 ```
 
@@ -140,7 +164,7 @@ async function getQuranNode(juzFolder: string, nodeFile: string) {
 }
 
 // Example usage:
-getQuranNode('juz_30', 'node_078_01.json')
+getQuranNode('juz_30', 'node_112_01.json')
   .then(data => console.log('Loaded node activities:', data.activities.length));
 ```
 
@@ -158,7 +182,7 @@ def fetch_quran_node(juz_folder: str, node_file: str) -> dict:
     return resp.json()
 
 # Example:
-node = fetch_quran_node("juz_30", "node_078_01.json")
+node = fetch_quran_node("juz_30", "node_112_01.json")
 print("Surah ID:", node['surahId'], "Title:", node['title'])
 ```
 
@@ -166,12 +190,10 @@ print("Surah ID:", node['surahId'], "Title:", node['title'])
 
 ## 🗂️ فهرس الأجزاء والسور (Ajzaa & Surahs Index)
 
-| الجزء (Juz) | المسار (Path) | نطاق السور | عدد العقد (Nodes) | نوع الأنشطة |
+| الجزء (Juz) | المسار (Path) | نطاق السور | عدد العقد المعتمدة | نوع الأنشطة |
 |-------------|--------------|------------|--------------------|--------------|
-| **جزء عمّ (Juz 30)** | `juz_30/` | سورة 78 (النبأ) إلى سورة 114 (الناس) | 128 عقدة كاملة | فراغات + تخمين الآية التالية |
-| **جزء تبارك (Juz 29)** | `juz_29/` | سورة 67 (الملك) إلى سورة 77 (المرسلات) | سورة الملك والقلم والحاقة والمعارج... | فراغات + تخمين الآية التالية |
-| **جزء ألم (Juz 1)** | `juz_01/` | سورة 1 (الفاتحة) وسورة 2 (البقرة) | عقد الفاتحة وبدايات البقرة | فراغات + تخمين الآية التالية |
+| **جزء عمّ (Juz 30)** | `juz_30/` | سورة 78 (النبأ) إلى سورة 114 (الناس) | 108 عقدة | فراغات + تخمين الآية التالية |
+| **جزء تبارك (Juz 29)** | `juz_29/` | سورة 67 (الملك) إلى سورة 77 (المرسلات) | 84 عقدة | فراغات + تخمين الآية التالية |
+| **جزء ألم (Juz 1)** | `juz_01/` | سورة 1 (الفاتحة) وبداية سورة 2 (البقرة) | 30 عقدة | فراغات + تخمين الآية التالية |
 
----
-
-*Waqf & License: Open-source Quranic memorization technology for Muslim developers and learners globally.*
+> 📌 **تنبيه:** باقي مجلدات الأجزاء الموجودة داخل المستودع تُعد مسودات عمل غير مدرجة في الفهرس الرسمي حتى تكتمل مراجعتها وتدقيقها.
