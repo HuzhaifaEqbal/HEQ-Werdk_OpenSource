@@ -184,4 +184,4 @@ print("Lesson title:", data['steps'][0]['title'])
 
 ---
 
-*Waqf & License: Open-source Shafi'i Fiqh curriculum for Islamic software engineers, apps, and web builders.*
+> ⚠️ **إشعار الترخيص وحقوق الاستخدام:** الترخيص قيد التحديد والمراجعة القانونية من قبل صاحب المشروع لضمان التوافق مع حقوق النشر والمراجع المعتمدة.

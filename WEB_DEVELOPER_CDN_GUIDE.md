@@ -48,9 +48,9 @@ https://cdn.jsdelivr.net/gh/HuzhaifaEqbal/HEQ-Werdk_OpenSource@main/{DIRECTORY}/
 | :--- | :--- | :--- |
 | **أحكام التجويد** | [`tajweed/manifest.json`](https://cdn.jsdelivr.net/gh/HuzhaifaEqbal/HEQ-Werdk_OpenSource@main/tajweed/manifest.json) | فهرس 10 أبواب و 50 درساً تفاعلياً مع مستويات الصعوبة والـ XP |
 | **الفقه الشافعي** | [`fiqh/manifest.json`](https://cdn.jsdelivr.net/gh/HuzhaifaEqbal/HEQ-Werdk_OpenSource@main/fiqh/manifest.json) | شجرة الفقه (الطهارة، الصلاة، الصيام) مع مستوياتها وأسئلتها |
-| **واحة القرآن (الحفظ المصغر)** | [`quran_oasis/manifest.json`](https://cdn.jsdelivr.net/gh/HuzhaifaEqbal/HEQ-Werdk_OpenSource@main/quran_oasis/manifest.json) | فهرس أجزاء عمّ (128 عقدة)، تبارك، والفاتحة بدون أي خلط |
+| **واحة القرآن (الحفظ المصغر)** | [`quran_oasis/manifest.json`](https://cdn.jsdelivr.net/gh/HuzhaifaEqbal/HEQ-Werdk_OpenSource@main/quran_oasis/manifest.json) | فهرس أجزاء عمّ (108 ملفات: 107 عقد حفظ + 1 تحدي صوتي)، تبارك، والفاتحة بدون أي خلط |
 | **السيرة النبوية التفاعلية** | [`AlSera_Alnabaoia/manifest.json`](https://cdn.jsdelivr.net/gh/HuzhaifaEqbal/HEQ-Werdk_OpenSource@main/AlSera_Alnabaoia/manifest.json) | التسلسل الزمني لـ 8 حقب من المولد الشريف حتى الوفاة |
-| **الأربعين النووية** | [`ALnawoi/manifest.json`](https://cdn.jsdelivr.net/gh/HuzhaifaEqbal/HEQ-Werdk_OpenSource@main/ALnawoi/manifest.json) | فهرس الأحاديث الـ 42 مع روابط الدفعات والأسانيد والتخريج |
+| **الأربعين النووية** | [`ALnawoi/manifest.json`](https://cdn.jsdelivr.net/gh/HuzhaifaEqbal/HEQ-Werdk_OpenSource@main/ALnawoi/manifest.json) | فهرس الأحاديث الأربعين المعتمدة (الحديثان 41 و42 قيد المراجعة) مع روابط الدفعات والأسانيد والتخريج |
 | **خريطة السيرة الجغرافية** | [`seerah_map/manifest.json`](https://cdn.jsdelivr.net/gh/HuzhaifaEqbal/HEQ-Werdk_OpenSource@main/seerah_map/manifest.json) | فهرس أحداث السيرة مع إحداثيات GPS وروابط الآيات |
 
 ---
@@ -173,7 +173,7 @@ https://cdn.jsdelivr.net/gh/HuzhaifaEqbal/HEQ-Werdk_OpenSource@main/{DIRECTORY}/
   - الآيات (1-7): [`juz_01/node_001_01.json`](https://cdn.jsdelivr.net/gh/HuzhaifaEqbal/HEQ-Werdk_OpenSource@main/quran_oasis/juz_01/node_001_01.json)
 * **سورة الملك (الجزء 29):**
   - المقطع الأول: [`juz_29/node_067_01.json`](https://cdn.jsdelivr.net/gh/HuzhaifaEqbal/HEQ-Werdk_OpenSource@main/quran_oasis/juz_29/node_067_01.json)
-* **جزء عمّ (الجزء 30 - 108 عقدة حفظ مصغر):**
+* **جزء عمّ (الجزء 30 - 108 ملفات: 107 عقد حفظ + 1 تحدي صوتي):**
   - سورة النبأ (المقطع 1): [`juz_30/node_078_01.json`](https://cdn.jsdelivr.net/gh/HuzhaifaEqbal/HEQ-Werdk_OpenSource@main/quran_oasis/juz_30/node_078_01.json)
   - سورة الإخلاص: [`juz_30/node_112_01.json`](https://cdn.jsdelivr.net/gh/HuzhaifaEqbal/HEQ-Werdk_OpenSource@main/quran_oasis/juz_30/node_112_01.json)
   - سورة الفلق: [`juz_30/node_113_01.json`](https://cdn.jsdelivr.net/gh/HuzhaifaEqbal/HEQ-Werdk_OpenSource@main/quran_oasis/juz_30/node_113_01.json)

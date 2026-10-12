@@ -141,4 +141,4 @@ print(f"Successfully loaded {len(hadiths)} hadiths.")
 
 ---
 
-*Waqf & Educational Resource: Open-source Prophetic Hadith dataset.*
+> ⚠️ **إشعار الترخيص وحقوق الاستخدام:** الترخيص قيد التحديد والمراجعة القانونية من قبل صاحب المشروع لضمان التوافق مع حقوق النشر والمراجع المعتمدة.

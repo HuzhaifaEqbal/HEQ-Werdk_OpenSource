@@ -197,4 +197,4 @@ print(f"Loaded lesson with {len(lesson['steps'])} steps")
 
 ---
 
-*Waqf & License: Open-source Islamic educational content for non-profit and educational mobile/web development.*
+> ⚠️ **إشعار الترخيص وحقوق الاستخدام:** الترخيص قيد التحديد والمراجعـة القانونية من قبل صاحب المشروع لضمان التوافق مع حقوق النشر والمراجع المعتمدة.

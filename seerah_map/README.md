@@ -89,4 +89,4 @@ class SeerahMapService {
 
 ---
 
-*Waqf & License: Open-source Islamic geospatial dataset for map applications and educational platforms.*
+> ⚠️ **إشعار الترخيص وحقوق الاستخدام:** الترخيص قيد التحديد والمراجعة القانونية من قبل صاحب المشروع لضمان التوافق مع حقوق النشر والمراجع المعتمدة.

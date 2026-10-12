@@ -169,3 +169,7 @@ print("Total lessons in migration chapter:", len(chapter))
 | 07 | `07_hajjat_alwadaa_walwufud.json` | عام الوفود وحجة الوداع | Delegations & Farewell Pilgrimage | 6 دروس |
 | 08 | `08_akhir_hayat_alrasul_wathar_alrisala.json` | آخر حياة النبي ﷺ وأثر الرسالة | Final Days & Enduring Legacy | 5 دروس |
 | **المجموع** | **8 ملفات** | **مسار السيرة النبوية كاملاً** | **Complete Seerah Pathway** | **59 درساً** |
+
+---
+
+> ⚠️ **إشعار الترخيص وحقوق الاستخدام:** الترخيص قيد التحديد والمراجعة القانونية من قبل صاحب المشروع لضمان التوافق مع حقوق النشر والمصادر المعتمدة.

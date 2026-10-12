@@ -16,7 +16,10 @@
       "path": "juz_30",
       "surahs_count": 37,
       "surah_range": "78 - 114",
-      "total_nodes": 108
+      "total_nodes": 108,
+      "hifz_nodes": 107,
+      "voice_challenges": 1,
+      "total_json_files": 108
     },
     {
       "juz": 29,
